@@ -45,5 +45,6 @@ uint16_t fetch_opcodes(struct Chip8 *chip8);
 void fetch_decode_exec(struct Chip8 *chip8);
 void update_timers(struct Chip8 *chip8, struct AudioToneGenerator *tone_gen);
 void clear_input(struct Chip8 *chip8);
+void init_font(struct Chip8 *chip8);
 
 #endif // !CHIP8_H
